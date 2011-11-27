@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<phpunit bootstrap="./bootstrap.php" colors="true">
+	<testsuite name="Order test">
+		<directory suffix=".php">./library</directory>
+	</testsuite>
+
+	<filter>
+		<blacklist>
+			<directory>./</directory>
+		</blacklist>
+		<whitelist>
+			<directory suffix=".php">../library</directory>
+		</whitelist>
+	</filter>
+
+	<logging>
+		<log type="coverage-html" target="./log/report" charset="UTF-8" yui="false" highlight="true" />
+	</logging>
+</phpunit>
