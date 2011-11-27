@@ -22,4 +22,4 @@ But even if we accept to delegate the calc to the statuses, this means we have t
 Possible solutions
 ------------------
 
-A possible solution is to split up Order class (for ex through subclassing/polymorphism), but it's not clear to us **how to transform** a pending order to a confirmed order in a way **totally hidden (or enough hidden)** to the world.
+A possible solution is to split up Order class (for ex through subclassing/polymorphism), but it's not clear to us **how to transform** a pending order to a confirmed order in a way **totally hidden (or hidden enough)** to the world.
